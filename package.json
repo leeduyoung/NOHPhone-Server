@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "no handphone application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "dylee",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-pg-simple": "^3.1.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "multer": "^1.2.0",
+    "pg.js": "^4.1.1"
+  }
+}
